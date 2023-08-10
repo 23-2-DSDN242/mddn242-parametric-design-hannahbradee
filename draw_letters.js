@@ -1,5 +1,5 @@
 /* these are optional special variables which will change the system */
-var systemBackgroundColor = "#caf0f8";
+var systemBackgroundColor = "black";
 var systemLineColor = "#000090";
 var systemBoxColor = "#00c800";
 
@@ -23,13 +23,32 @@ function drawLetter(letterData) {
   // determine parameters for second circle
   let size2 = letterData["size"];
   let pos2x = 50  + letterData["offsetx"];
-  let pos2y = 150 + letterData["offsety"];
+  let pos2y = 100 + letterData["offsety"];
 
-  // draw two circles
-  fill(darkBlue);
-  ellipse(50, 150, 75, 75);
-  fill(lightBlue);
-  ellipse(pos2x, pos2y, size2, size2);
+  let size3 = letterData["triSize"];
+  let pos3x = 50 + letterData["triOffsetx"];
+  let pos3y = 100+ letterData["triOffsety"];
+  let rotation = letterData["rotation"];
+  // // draw two circles
+  // fill(darkBlue);
+  // ellipse(50, 150, 75, 75);
+  // fill(lightBlue);
+  // ellipse(pos2x, pos2y, size2, size2);
+
+
+
+
+stroke("white")
+strokeWeight(2)
+let numLines= 17
+let gapSize= 200/numLines
+for (let i = 0; i < numLines; i++) {
+  line(0,0+(i*gapSize),100,0+(i*gapSize));
+}
+strokeWeight(0);
+fill("black");
+drawTriangle(pos3x,pos3y,size3,rotation);
+ellipse(pos2x,pos2y,size2);
 }
 
 function interpolate_letter(percent, oldObj, newObj) {
@@ -39,6 +58,17 @@ function interpolate_letter(percent, oldObj, newObj) {
   new_letter["offsety"] = map(percent, 0, 100, oldObj["offsety"], newObj["offsety"]);
   return new_letter;
 }
+function drawTriangle(posx,posy,size,degrees){
+  angleMode(DEGREES);
+  push ();
+  translate(posx,posy);
+  rotate(degrees);
+  scale(size);
+  triangle(-28, 19, 0, -28, 28, 19);
+  pop ();
+}
+
+
 
 var swapWords = [
   "ABBAABBA",
