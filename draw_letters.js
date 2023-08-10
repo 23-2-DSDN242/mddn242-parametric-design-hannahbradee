@@ -49,6 +49,7 @@ strokeWeight(0);
 fill("black");
 drawTriangle(pos3x,pos3y,size3,rotation);
 ellipse(pos2x,pos2y,size2);
+
 }
 
 function interpolate_letter(percent, oldObj, newObj) {
