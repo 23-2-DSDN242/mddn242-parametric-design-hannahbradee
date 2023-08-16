@@ -27,28 +27,47 @@ function drawLetter(letterData) {
 
   let size3 = letterData["triSize"];
   let pos3x = 50 + letterData["triOffsetx"];
-  let pos3y = 100+ letterData["triOffsety"];
+  let pos3y = 110+ letterData["triOffsety"];
   let rotation = letterData["rotation"];
-  // // draw two circles
-  // fill(darkBlue);
-  // ellipse(50, 150, 75, 75);
-  // fill(lightBlue);
-  // ellipse(pos2x, pos2y, size2, size2);
+  
 
 
 
 
 stroke("white")
 strokeWeight(2)
-let numLines= 17
-let gapSize= 200/numLines
-for (let i = 0; i < numLines; i++) {
-  line(0,0+(i*gapSize),100,0+(i*gapSize));
+let verNumLines= 9
+let horNumLines= 15
+let verGapSize= 200/horNumLines+1
+let horGapSize= 100/verNumLines+1.5
+
+// for (let i = 0; i < horNumLines; i++) {
+//   line(0,0,100,0+(i*verGapSize));
+// }
+//+(i*verGapSize)
+// for (let i = 0; i < verNumLines; i++) {
+//   line(0+(i*horGapSize),0,0,200);
+// }
+//+(i*horGapSize)
+
+ for (let i = 0; i < horNumLines; i++) {
+  line(0,0+(i*verGapSize),100,0+(i*verGapSize));
+ }
+  //+(i*verGapSize)
+
+for(let i=0; i<verNumLines; i++){
+  line(0,100,100,100+(i*horGapSize));
 }
+
+for (let i = 0; i < verNumLines; i++) {
+  line(0+(i*horGapSize),100,100,0);
+}
+
 strokeWeight(0);
 fill("black");
-drawTriangle(pos3x,pos3y,size3,rotation);
+//drawTriangle(pos3x,pos3y,size3,rotation);
 ellipse(pos2x,pos2y,size2);
+ellipse(pos2x,pos2y+75,size2);
 
 }
 
@@ -67,6 +86,8 @@ function drawTriangle(posx,posy,size,degrees){
   scale(size);
   triangle(-28, 19, 0, -28, 28, 19);
   pop ();
+
+
 }
 
 
