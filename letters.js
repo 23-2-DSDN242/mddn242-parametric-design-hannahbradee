@@ -94,10 +94,10 @@ const alphabet = {
    "offsetx": 0,
    "offsety": 50,
    //triangle
-    "triSize":2.7,
-    "triOffsetx":-5,
-    "triOffsety":-75,
-    "triRotation":160,
+    "triSize":2,
+    "triOffsetx":-13,
+    "triOffsety":-30,
+    "triRotation":90,
     //lines
     "line1startX":0,
     "line1startY":0,
