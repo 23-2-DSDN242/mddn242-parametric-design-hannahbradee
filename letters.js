@@ -88,11 +88,27 @@ const alphabet = {
 
 
    },
-//   "D": {
-//     "size": 50,
-//     "offsetx": 15,
-//     "offsety": 0
-//   },
+  "D": {
+//      //elllipse
+   "size": 60,
+   "offsetx": 0,
+   "offsety": 50,
+   //triangle
+    "triSize":2.7,
+    "triOffsetx":-5,
+    "triOffsety":-75,
+    "triRotation":160,
+    //lines
+    "line1startX":0,
+    "line1startY":0,
+    "line1endX":0,
+    "line1endY":200,
+
+    "line2startX":0,
+    "line2startY":200,
+    "line2endX":100,
+    "line2endY":0,
+  },
 //   "E": {
 //     "size": 50,
 //     "offsetx": 15,
