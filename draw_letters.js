@@ -21,9 +21,13 @@ function drawLetter(letterData) {
   strokeWeight(4);
 
   // determine parameters for second circle
-  let size2 = letterData["size"];
+  let size1 = letterData["size"];
+  let height1 =letterData["ellipseheight1"];
   let pos2x = 50  + letterData["offsetx"];
   let pos2y = 100 + letterData["offsety"];
+  let distanceX = letterData["ellipsedistancehor"];
+  let distanceY = letterData["ellipsedistancever"];
+  let height2 =letterData["ellipseheight2"];
 //parameters for triangle
   let size3 = letterData["triSize"];
   let pos3x = 50 + letterData["triOffsetx"];
@@ -76,8 +80,8 @@ for (let i = 0; i < verNumLines; i++) {
 strokeWeight(0);
 fill("black");
 drawTriangle(pos3x,pos3y,size3,degrees);
-ellipse(pos2x,pos2y,size2);
-ellipse(pos2x,pos2y+85,size2);
+ellipse(pos2x,pos2y,size1,height1);
+ellipse(pos2x+distanceX,pos2y+distanceY,size1,height2);
 
 }
 
