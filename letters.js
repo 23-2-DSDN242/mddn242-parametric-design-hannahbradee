@@ -180,15 +180,56 @@ const alphabet = {
  "line2endX":100,
  "line2endY":0,
   },
-//   "G": {
-//     "size": 50,
-//     "offsetx": 15,
-//     "offsety": 0
-//   },
-//   "H": {
-//     "size": 50,
-//     "offsetx": 15,
-//     "offsety": 0
+  "G": {
+    //elllipse
+"size": 80,
+"offsetx": -0,
+"offsety": -40,
+"ellipsedistancehor": -20,
+"ellipsedistancever":80,
+"ellipseheight1":60,
+"ellipseheight2":60,
+//triangle
+ "triSize":1,
+ "triOffsetx":-40,
+ "triOffsety":0,
+ "triRotation":90,
+ //lines
+ "line1startX":0,
+ "line1startY":0,
+ "line1endX":0,
+ "line1endY":200,
+
+ "line2startX":0,
+ "line2startY":200,
+ "line2endX":100,
+ "line2endY":0,
+ },
+   "H": {
+      //elllipse
+  "size": 90,
+  "offsetx": 15,
+  "offsety": -70,
+  "ellipsedistancehor": -15,
+  "ellipsedistancever":140,
+  "ellipseheight1":120,
+  "ellipseheight2":120,
+  //triangle
+   "triSize":1.8,
+   "triOffsetx":32,
+   "triOffsety":-45,
+   "triRotation":37,
+   //lines
+   "line1startX":0,
+   "line1startY":0,
+   "line1endX":0,
+   "line1endY":200,
+  
+   "line2startX":0,
+   "line2startY":200,
+   "line2endX":100,
+   "line2endY":0,
+   },
 //   },
 //   "I": {
 //     "size": 50,
@@ -240,11 +281,30 @@ const alphabet = {
 //     "offsetx": 15,
 //     "offsety": 0
 //   },
-//   "S": {
-//     "size": 50,
-//     "offsetx": 15,
-//     "offsety": 0
-//   },
+ "S": { 
+"size": 80,
+"offsetx": 20,
+"offsety": -40,
+"ellipsedistancehor": -40,
+"ellipsedistancever":80,
+"ellipseheight1":60,
+"ellipseheight2":60,
+//triangle
+ "triSize":1,
+ "triOffsetx":-40,
+ "triOffsety":0,
+ "triRotation":90,
+ //lines
+ "line1startX":0,
+ "line1startY":0,
+ "line1endX":0,
+ "line1endY":200,
+
+ "line2startX":0,
+ "line2startY":200,
+ "line2endX":100,
+ "line2endY":0,
+ },
 //   "T": {
 //     "size": 50,
 //     "offsetx": 15,
