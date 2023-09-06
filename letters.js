@@ -27,7 +27,7 @@ const alphabet = {
     "offsetx": 0,
     "offsety": -140,
     //triangle
-     "triSize":2,
+     "triSize":2.2,
      "triOffsetx":0,
      "triOffsety":60,
      "triRotation":0, 
@@ -95,7 +95,7 @@ const alphabet = {
    "offsety": 50,
    //triangle
     "triSize":2,
-    "triOffsetx":-13,
+    "triOffsetx":-15,
     "triOffsety":-30,
     "triRotation":90,
     //lines
