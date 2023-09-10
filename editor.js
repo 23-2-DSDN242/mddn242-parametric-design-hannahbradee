@@ -6,8 +6,25 @@
  */
 const sliderInfo = [
   ["size",       0, 100],
-  ["offsetx",  -30,  30],
-  ["offsety", -100, 100]
+  ["offsetx",  -100,  100],
+  ["offsety", -100, 100],
+  ["ellipseheight1", 0, 200],
+  ["ellipseheight2", 0, 200],
+  ["ellipsedistancehor", -200 ,200],
+  ["ellipsedistancever", -200, 200],
+  ["triSize", 0, 3],
+  ["triOffsetx", -100 ,100],
+  ["triOffsety", -200,200],
+  ["triRotation", 0, 360],
+  ["line1startX", 0, 100],
+  ["line1startY", 0, 200],
+  ["line1endX", 0, 100],
+  ["line1endY", 0, 200],
+  ["line2startX", 0, 100],
+  ["line2startY", 0, 200],
+  ["line2endX", 0, 100],
+  ["line2endY", 0, 200]
+
 ];
 
 // PROBABLY DON'T NEED TO EDIT ANYTHING ELSE. STOP HERE.
