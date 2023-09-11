@@ -29,10 +29,11 @@ function drawLetter(letterData) {
   let distanceY = letterData["ellipsedistancever"];
   let height2 =letterData["ellipseheight2"];
   //parameters for triangle
-  let size3 = letterData["triSize"];
+  let size2 = letterData["triSize"];
   let pos3x = 50 + letterData["triOffsetx"];
   let pos3y = 110+ letterData["triOffsety"];
   let degrees = letterData["triRotation"];
+  let size3 = letterData["triSize2"];
   //parameters for lines
   let l1startX= letterData["line1startX"];
   let l1startY= letterData["line1startY"];
@@ -79,7 +80,8 @@ for (let i = 0; i < verNumLines; i++) {
 
 strokeWeight(0);
 fill("black");
-drawTriangle(pos3x,pos3y,size3,degrees);
+drawTriangle(pos3x,pos3y,size2,degrees);
+drawTriangle(50,175,size3,1.5,0)
 ellipse(pos2x,pos2y,size1,height1);
 ellipse(pos2x+distanceX,pos2y+distanceY,size1,height2);
 
