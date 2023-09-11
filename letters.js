@@ -90,7 +90,7 @@ const alphabet = {
    //triangle
     "triSize":2,
     "triOffsetx":20,
-    "triOffsety":0,
+    "triOffsety":-10,
     "triRotation":270,
     //lines
     "line1startX":0,
@@ -107,18 +107,18 @@ const alphabet = {
    },
   "D": {
   //elllipse
-   "size": 60,
+   "size": 80,
    "offsetx": 0,
    "offsety": 50,
-   "ellipsedistancehor": -30,
-   "ellipsedistancever":-120,
+   "ellipsedistancehor": -35,
+   "ellipsedistancever":-160,
    "ellipseheight1":60,
-   "ellipseheight2":100,
+   "ellipseheight2":120,
    //triangle
-    "triSize":2,
-    "triOffsetx":-15,
-    "triOffsety":-30,
-    "triRotation":90,
+    "triSize":2.2,
+    "triOffsetx":-10,
+    "triOffsety":-45,
+    "triRotation":140,
     //lines
     "line1startX":0,
     "line1startY":0,
@@ -230,47 +230,209 @@ const alphabet = {
    "line2endX":100,
    "line2endY":0,
    },
-//   },
-//   "I": {
-//     "size": 50,
-//     "offsetx": 15,
-//     "offsety": 0
-//   },
-//   "J": {
-//     "size": 50,
-//     "offsetx": 15,
-//     "offsety": 0
-//   },
-//   "K": {
-//     "size": 50,
-//     "offsetx": 15,
-//     "offsety": 0
-//   },
-//   "L": {
-//     "size": 50,
-//     "offsetx": 15,
-//     "offsety": 0
-//   },
-//   "M": {
-//     "size": 50,
-//     "offsetx": 15,
-//     "offsety": 0
-//   },
-//   "N": {
-//     "size": 50,
-//     "offsetx": 15,
-//     "offsety": 0
-//   },
-//   "O": {
-//     "size": 50,
-//     "offsetx": 15,
-//     "offsety": 0
-//   },
-//   "P": {
-//     "size": 50,
-//     "offsetx": 15,
-//     "offsety": 0
-//   },
+
+   "I": {
+
+    //elllipse
+    "size": 72,
+    "offsetx": -44,
+    "offsety": 0,
+    "ellipsedistancehor": 88,
+    "ellipsedistancever":0,
+    "ellipseheight1":166,
+    "ellipseheight2":166,
+    //triangle
+     "triSize":0,
+     "triOffsetx":0,
+     "triOffsety":-0,
+     "triRotation":0,
+     //lines
+     "line1startX":0,
+     "line1startY":200,
+     "line1endX":50,
+     "line1endY":100,
+    
+     "line2startX":0,
+     "line2startY":0,
+     "line2endX":50,
+     "line2endY":100,
+  },
+  "J": {
+    //elllipse
+    "size": 90,
+    "offsetx": -15,
+    "offsety": 1.5,
+    "ellipsedistancehor": 4,
+    "ellipsedistancever":10,
+    "ellipseheight1":120,
+    "ellipseheight2":164,
+    //triangle
+     "triSize":1.5,
+     "triOffsetx":-37,
+     "triOffsety":-52,
+     "triRotation":180,
+     //lines
+     "line1startX":0,
+     "line1startY":200,
+     "line1endX":100,
+     "line1endY":100,
+    
+     "line2startX":0,
+     "line2startY":0,
+     "line2endX":100,
+     "line2endY":100,
+  },
+  "K": {
+     //elllipse
+     "size": 40,
+     "offsetx": -10,
+     "offsety": -90,
+     "ellipsedistancehor": -0,
+     "ellipsedistancever":180,
+     "ellipseheight1":100,
+     "ellipseheight2":100,
+     //triangle
+      "triSize":1.3,
+      "triOffsetx":34,
+      "triOffsety":-7,
+      "triRotation":148.6,
+      //lines
+      "line1startX":0,
+      "line1startY":0,
+      "line1endX":0,
+      "line1endY":100,
+     
+      "line2startX":0,
+      "line2startY":200,
+      "line2endX":0,
+      "line2endY":100,
+   },
+  "L": {
+    //elllipse
+    "size": 80,
+    "offsetx": 27,
+    "offsety": -60,
+    "ellipsedistancehor": -0,
+    "ellipsedistancever":50,
+    "ellipseheight1":250,
+    "ellipseheight2":200,
+    //triangle
+     "triSize":0,
+     "triOffsetx":30,
+     "triOffsety":32.5,
+     "triRotation":0,
+     //lines
+     "line1startX":0,
+     "line1startY":0,
+     "line1endX":100,
+     "line1endY":200,
+    
+     "line2startX":0,
+     "line2startY":200,
+     "line2endX":0,
+     "line2endY":0,
+  },
+  "M": {
+    //elllipse
+    "size": 40,
+    "offsetx": -17,
+    "offsety": 80,
+    "ellipsedistancehor": 35,
+    "ellipsedistancever":0,
+    "ellipseheight1":190,
+    "ellipseheight2":190,
+    //triangle
+     "triSize":1.5,
+     "triOffsetx":0,
+     "triOffsety":-100,
+     "triRotation":180,
+     //lines
+     "line1startX":0,
+     "line1startY":200,
+     "line1endX":0,
+     "line1endY":0,
+    
+     "line2startX":0,
+     "line2startY":200,
+     "line2endX":100,
+     "line2endY":0,
+  },
+   "N": {
+  //elllipse
+  "size": 40,
+  "offsetx": -17,
+  "offsety": 80,
+  "ellipsedistancehor": 35,
+  "ellipsedistancever":-150,
+  "ellipseheight1":190,
+  "ellipseheight2":190,
+  //triangle
+   "triSize":0,
+   "triOffsetx":32,
+   "triOffsety":-45,
+   "triRotation":37,
+   //lines
+   "line1startX":0,
+   "line1startY":0,
+   "line1endX":0,
+   "line1endY":200,
+  
+   "line2startX":0,
+   "line2startY":200,
+   "line2endX":100,
+   "line2endY":0,
+
+   },
+   "O": {
+  //elllipse
+  "size": 40,
+  "offsetx": 0,
+  "offsety": 0,
+  "ellipsedistancehor": 0,
+  "ellipsedistancever": 0,
+  "ellipseheight1":100,
+  "ellipseheight2":100,
+  //triangle
+   "triSize":0,
+   "triOffsetx":32,
+   "triOffsety":-45,
+   "triRotation":37,
+   //lines
+   "line1startX":0,
+   "line1startY":0,
+   "line1endX":50,
+   "line1endY":200,
+  
+   "line2startX":0,
+   "line2startY":200,
+   "line2endX":50,
+   "line2endY":0,
+   },
+   "P": {
+//    //elllipse
+   "size": 80,
+   "offsetx": 0,
+   "offsety": -50,
+   "ellipsedistancehor": 35,
+   "ellipsedistancever":160,
+   "ellipseheight1":60,
+   "ellipseheight2":120,
+   //triangle
+    "triSize":2.2,
+    "triOffsetx":20,
+    "triOffsety":35,
+    "triRotation":80,
+    //lines
+    "line1startX":0,
+    "line1startY":0,
+    "line1endX":0,
+    "line1endY":200,
+
+    "line2startX":0,
+    "line2startY":200,
+    "line2endX":100,
+    "line2endY":0,
+   },
 //   "Q": {
 //     "size": 50,
 //     "offsetx": 15,
@@ -305,11 +467,31 @@ const alphabet = {
  "line2endX":100,
  "line2endY":0,
  },
-//   "T": {
-//     "size": 50,
-//     "offsetx": 15,
-//     "offsety": 0
-//   },
+    "T": {
+     //elllipse
+   "size": 50,
+   "offsetx": -34.5,
+   "offsety": 20,
+   "ellipsedistancehor": 70,
+   "ellipsedistancever":-0,
+   "ellipseheight1":215,
+   "ellipseheight2":215,
+   //triangle
+    "triSize":0,
+    "triOffsetx":-10,
+    "triOffsety":-45,
+    "triRotation":140,
+    //lines
+    "line1startX":0,
+    "line1startY":0,
+    "line1endX":0,
+    "line1endY":200,
+
+    "line2startX":0,
+    "line2startY":200,
+    "line2endX":100,
+    "line2endY":0,
+  },
 //   "U": {
 //     "size": 50,
 //     "offsetx": 15,
