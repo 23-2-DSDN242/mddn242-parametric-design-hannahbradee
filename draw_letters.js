@@ -130,7 +130,12 @@ function drawTriangle(posx,posy,size,degrees){
 
 
 var swapWords = [
+  // "ABCDEFGH",
+  // "IJKLMNOP",
+  "QRSTUVWX",
+  "INDISTRY",
+  "MESHED2Z",
   "ABBAABBA",
-  "CAB?CAB?",
+  "CABYCABY",
   "BAAAAAAA"
 ]
