@@ -582,15 +582,15 @@ const alphabet = {
   },
    "V": {
  //elllipse
- "size": 70,
- "offsetx": -50,
- "offsety": 80,
- "ellipsedistancehor": 100,
+ "size": 65,
+ "offsetx": -30,
+ "offsety": 90,
+ "ellipsedistancehor": 61,
  "ellipsedistancever":0,
- "ellipseheight1":140,
- "ellipseheight2":140,
+ "ellipseheight1":100,
+ "ellipseheight2":100,
  //triangle
-  "triSize":2.2,
+  "triSize":2.3,
   "triOffsetx":0,
   "triOffsety":-80,
   "triRotation":180,
