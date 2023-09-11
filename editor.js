@@ -23,7 +23,8 @@ const sliderInfo = [
   ["line2startX", 0, 100],
   ["line2startY", 0, 200],
   ["line2endX", 0, 100],
-  ["line2endY", 0, 200]
+  ["line2endY", 0, 200],
+  ["triSize2", 0, 2],
 
 ];
 
