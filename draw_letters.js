@@ -103,6 +103,7 @@ function interpolate_letter(percent, oldObj, newObj) {
   new_letter["triOffsetx"] = map(percent, 0, 100, oldObj["triOffsetx"], newObj["triOffsetx"]);
   new_letter["triOffsety"] = map(percent, 0, 100, oldObj["triOffsety"], newObj["triOffsety"]);
   new_letter["triRotation"] = map(percent, 0, 100, oldObj["triRotation"], newObj["triRotation"]);
+  new_letter["triSize2"] = map(percent, 0, 100, oldObj["triSize2"], newObj[triSize2]);
   //lines
   new_letter["line1startX"] = map(percent, 0, 100, oldObj["line1startX"], newObj["line1startX"]);
   new_letter["line1startY"] = map(percent, 0, 100, oldObj["line1startY"], newObj["line1startY"]);
