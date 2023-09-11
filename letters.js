@@ -433,17 +433,59 @@ const alphabet = {
     "line2endX":100,
     "line2endY":0,
    },
-//   "Q": {
-//     "size": 50,
-//     "offsetx": 15,
-//     "offsety": 0
-//   },
-//   "R": {
-//     "size": 50,
-//     "offsetx": 15,
-//     "offsety": 0
-//   },
+   "Q": {
+//elllipse
+"size": 80,
+"offsetx": 0,
+"offsety": -20,
+"ellipsedistancehor": -30,
+"ellipsedistancever":100,
+"ellipseheight1":100,
+"ellipseheight2":60,
+//triangle
+ "triSize":1,
+ "triOffsetx":40,
+ "triOffsety":40,
+ "triRotation":145,
+ //lines
+ "line1startX":0,
+ "line1startY":100,
+ "line1endX":100,
+ "line1endY":200,
+
+ "line2startX":0,
+ "line2startY":100,
+ "line2endX":0,
+ "line2endY":0,
+
+   },
+   "R": {
+//elllipse
+"size": 60,
+"offsetx": 0,
+"offsety": -50,
+"ellipsedistancehor": 0,
+"ellipsedistancever":140,
+"ellipseheight1":60,
+"ellipseheight2":120,
+//triangle
+ "triSize":1.2,
+ "triOffsetx":40,
+ "triOffsety":0,
+ "triRotation":145,
+ //lines
+ "line1startX":0,
+ "line1startY":0,
+ "line1endX":0,
+ "line1endY":200,
+
+ "line2startX":0,
+ "line2startY":200,
+ "line2endX":100,
+ "line2endY":0,
+  },
  "S": { 
+  //ellipse
 "size": 80,
 "offsetx": 20,
 "offsety": -40,
@@ -492,31 +534,131 @@ const alphabet = {
     "line2endX":100,
     "line2endY":0,
   },
-//   "U": {
-//     "size": 50,
-//     "offsetx": 15,
-//     "offsety": 0
-//   },
-//   "V": {
-//     "size": 50,
-//     "offsetx": 15,
-//     "offsety": 0
-//   },
-//   "W": {
-//     "size": 50,
-//     "offsetx": 15,
-//     "offsety": 0
-//   },
-//   "X": {
-//     "size": 50,
-//     "offsetx": 15,
-//     "offsety": 0
-//   },
-//   "Y": {
-//     "size": 50,
-//     "offsetx": 15,
-//     "offsety": 0
-//   },
+  "U": {
+ //elllipse
+ "size": 50,
+ "offsetx": -5,
+ "offsety": -80,
+ "ellipsedistancehor": 10,
+ "ellipsedistancever":0,
+ "ellipseheight1":250,
+ "ellipseheight2":250,
+ //triangle
+  "triSize":1.5,
+  "triOffsetx":0,
+  "triOffsety":-100,
+  "triRotation":180,
+  //lines
+  "line1startX":0,
+  "line1startY":200,
+  "line1endX":0,
+  "line1endY":0,
+ 
+  "line2startX":0,
+  "line2startY":200,
+  "line2endX":100,
+  "line2endY":0,
+  },
+   "V": {
+ //elllipse
+ "size": 70,
+ "offsetx": -50,
+ "offsety": 80,
+ "ellipsedistancehor": 100,
+ "ellipsedistancever":0,
+ "ellipseheight1":140,
+ "ellipseheight2":140,
+ //triangle
+  "triSize":2.75,
+  "triOffsetx":0,
+  "triOffsety":-60,
+  "triRotation":180,
+  //lines
+  "line1startX":0,
+  "line1startY":200,
+  "line1endX":0,
+  "line1endY":0,
+ 
+  "line2startX":0,
+  "line2startY":200,
+  "line2endX":100,
+  "line2endY":0,
+   },
+   "W": {
+//elllipse
+"size": 40,
+"offsetx": -15,
+"offsety": -60,
+"ellipsedistancehor": 30,
+"ellipsedistancever":0,
+"ellipseheight1":200,
+"ellipseheight2":200,
+//triangle
+ "triSize":1.5,
+ "triOffsetx":0,
+ "triOffsety":80,
+ "triRotation":0,
+ //lines
+ "line1startX":0,
+ "line1startY":200,
+ "line1endX":0,
+ "line1endY":0,
+
+ "line2startX":0,
+ "line2startY":200,
+ "line2endX":100,
+ "line2endY":0,
+  },
+  "X": {
+ //elllipse
+ "size": 60,
+ "offsetx": -50,
+ "offsety": 0,
+ "ellipsedistancehor": 100,
+ "ellipsedistancever":0,
+ "ellipseheight1":80,
+ "ellipseheight2":80,
+ //triangle
+  "triSize":1.5,
+  "triOffsetx":0,
+  "triOffsety":-85,
+  "triRotation":180,
+  //lines
+  "line1startX":0,
+  "line1startY":200,
+  "line1endX":50,
+  "line1endY":0,
+ 
+  "line2startX":0,
+  "line2startY":0,
+  "line2endX":50,
+  "line2endY":200,
+  },
+  "Y": {
+ //elllipse
+ "size": 60,
+ "offsetx": -40,
+ "offsety": 50,
+ "ellipsedistancehor": 80,
+ "ellipsedistancever":0,
+ "ellipseheight1":140,
+ "ellipseheight2":140,
+ //triangle
+  "triSize":1.5,
+  "triOffsetx":0,
+  "triOffsety":-85,
+  "triRotation":180,
+  //lines
+  "line1startX":0,
+  "line1startY":200,
+  "line1endX":50,
+  "line1endY":0,
+ 
+  "line2startX":0,
+  "line2startY":0,
+  "line2endX":50,
+  "line2endY":200,
+  },
 //   "Z": {
 //     "size": 50,
 //     "offsetx": 15,
