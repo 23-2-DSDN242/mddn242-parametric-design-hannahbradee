@@ -13,6 +13,7 @@ const alphabet = {
      "triOffsetx":0,
      "triOffsety":60,
      "triRotation":0, 
+     "triSize2":0,
      //lines
      "line1startX":0,
      "line1startY":0,
@@ -39,6 +40,7 @@ const alphabet = {
      "triOffsetx":0,
      "triOffsety":60,
      "triRotation":0, 
+     "triSize2":0,
      //lines
      "line1startX":0,
      "line1startY":0,
@@ -66,6 +68,7 @@ const alphabet = {
      "triOffsetx":40,
      "triOffsety":-10,
      "triRotation":270,
+     "triSize2":0,
      //lines
      "line1startX":0,
      "line1startY":100,
@@ -92,6 +95,7 @@ const alphabet = {
     "triOffsetx":20,
     "triOffsety":-10,
     "triRotation":270,
+    "triSize2":0,
     //lines
     "line1startX":0,
     "line1startY":0,
@@ -119,6 +123,7 @@ const alphabet = {
     "triOffsetx":-10,
     "triOffsety":-45,
     "triRotation":140,
+    "triSize2":0,
     //lines
     "line1startX":0,
     "line1startY":0,
@@ -144,6 +149,7 @@ const alphabet = {
  "triOffsetx":50,
  "triOffsety":0,
  "triRotation":90,
+ "triSize2":0,
  //lines
  "line1startX":0,
  "line1startY":0,
@@ -169,6 +175,7 @@ const alphabet = {
  "triOffsetx":50,
  "triOffsety":0,
  "triRotation":90,
+ "triSize2":0,
  //lines
  "line1startX":0,
  "line1startY":0,
@@ -194,6 +201,7 @@ const alphabet = {
  "triOffsetx":-40,
  "triOffsety":0,
  "triRotation":90,
+ "triSize2":0,
  //lines
  "line1startX":0,
  "line1startY":0,
@@ -219,6 +227,7 @@ const alphabet = {
    "triOffsetx":32,
    "triOffsety":-45,
    "triRotation":37,
+   "triSize2":0,
    //lines
    "line1startX":0,
    "line1startY":0,
@@ -246,6 +255,7 @@ const alphabet = {
      "triOffsetx":0,
      "triOffsety":-0,
      "triRotation":0,
+     "triSize2":0,
      //lines
      "line1startX":0,
      "line1startY":200,
@@ -271,6 +281,7 @@ const alphabet = {
      "triOffsetx":-37,
      "triOffsety":-52,
      "triRotation":180,
+     "triSize2":0,
      //lines
      "line1startX":0,
      "line1startY":200,
@@ -296,6 +307,7 @@ const alphabet = {
       "triOffsetx":34,
       "triOffsety":-7,
       "triRotation":148.6,
+      "triSize2":0,
       //lines
       "line1startX":0,
       "line1startY":0,
@@ -321,6 +333,7 @@ const alphabet = {
      "triOffsetx":30,
      "triOffsety":32.5,
      "triRotation":0,
+     "triSize2":0,
      //lines
      "line1startX":0,
      "line1startY":0,
@@ -371,6 +384,7 @@ const alphabet = {
    "triOffsetx":32,
    "triOffsety":-45,
    "triRotation":37,
+   "triSize2":0,
    //lines
    "line1startX":0,
    "line1startY":0,
@@ -397,6 +411,7 @@ const alphabet = {
    "triOffsetx":32,
    "triOffsety":-45,
    "triRotation":37,
+   "triSize2":0,
    //lines
    "line1startX":0,
    "line1startY":0,
@@ -422,6 +437,7 @@ const alphabet = {
     "triOffsetx":20,
     "triOffsety":35,
     "triRotation":80,
+    "triSize2":0,
     //lines
     "line1startX":0,
     "line1startY":0,
@@ -447,6 +463,7 @@ const alphabet = {
  "triOffsetx":40,
  "triOffsety":40,
  "triRotation":145,
+ "triSize2":0,
  //lines
  "line1startX":0,
  "line1startY":100,
@@ -498,6 +515,7 @@ const alphabet = {
  "triOffsetx":-40,
  "triOffsety":0,
  "triRotation":90,
+ "triSize2":0,
  //lines
  "line1startX":0,
  "line1startY":0,
@@ -523,6 +541,7 @@ const alphabet = {
     "triOffsetx":-10,
     "triOffsety":-45,
     "triRotation":140,
+    "triSize2":0,
     //lines
     "line1startX":0,
     "line1startY":0,
@@ -543,6 +562,7 @@ const alphabet = {
  "ellipsedistancever":0,
  "ellipseheight1":250,
  "ellipseheight2":250,
+ "triSize2":0,
  //triangle
   "triSize":1.5,
   "triOffsetx":0,
@@ -573,6 +593,7 @@ const alphabet = {
   "triOffsetx":0,
   "triOffsety":-60,
   "triRotation":180,
+  "triSize2":0,
   //lines
   "line1startX":0,
   "line1startY":200,
@@ -598,6 +619,7 @@ const alphabet = {
  "triOffsetx":0,
  "triOffsety":80,
  "triRotation":0,
+ "triSize2":0,
  //lines
  "line1startX":0,
  "line1startY":200,
@@ -623,6 +645,7 @@ const alphabet = {
   "triOffsetx":0,
   "triOffsety":-85,
   "triRotation":180,
+  "triSize2":1.5,
   //lines
   "line1startX":0,
   "line1startY":200,
@@ -648,6 +671,7 @@ const alphabet = {
   "triOffsetx":0,
   "triOffsety":-85,
   "triRotation":180,
+  "triSize2":0,
   //lines
   "line1startX":0,
   "line1startY":200,
