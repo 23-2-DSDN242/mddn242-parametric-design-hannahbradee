@@ -83,6 +83,7 @@ drawTriangle(pos3x,pos3y,size3,degrees);
 ellipse(pos2x,pos2y,size1,height1);
 ellipse(pos2x+distanceX,pos2y+distanceY,size1,height2);
 
+
 }
 
 function interpolate_letter(percent, oldObj, newObj) {
