@@ -81,7 +81,7 @@ for (let i = 0; i < verNumLines; i++) {
 strokeWeight(0);
 fill("black");
 drawTriangle(pos3x,pos3y,size2,degrees);
-drawTriangle(50,175,size3,1.5,0)
+drawTriangle(90,97,size3,28)
 ellipse(pos2x,pos2y,size1,height1);
 ellipse(pos2x+distanceX,pos2y+distanceY,size1,height2);
 
