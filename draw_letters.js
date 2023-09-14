@@ -70,6 +70,11 @@ for (let i = 0; i < verNumLines; i++) {
 }
 
 strokeWeight(0);
+fill(0,0,0,60);
+drawTriangle(pos3x,pos3y,size2+.5,degrees);
+drawTriangle(90,pos3y-3,size3+.5,28),
+ellipse(pos2x,pos2y,size1+10,height1+10);
+ellipse(pos2x+distanceX,pos2y+distanceY,size1+10,height2+10);
 fill("black");
 drawTriangle(pos3x,pos3y,size2,degrees);
 drawTriangle(90,pos3y-3,size3,28),
