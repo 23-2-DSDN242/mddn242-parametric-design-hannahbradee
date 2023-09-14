@@ -54,22 +54,13 @@ let horNumLines= 15
 let verGapSize= 200/horNumLines+1
 let horGapSize= 100/verNumLines+1.5
 
-// for (let i = 0; i < horNumLines; i++) {
-//   line(0,0,100,0+(i*verGapSize));
-// }
-//+(i*verGapSize)
-// for (let i = 0; i < verNumLines; i++) {
-//   line(0+(i*horGapSize),0,0,200);
-// }
-//+(i*horGapSize)
-
 
 //stays the same thorughout
  for (let i = 0; i < horNumLines; i++) {
   line(0,0+(i*verGapSize),100,0+(i*verGapSize));
  }
   
-
+//these lines are controlled by parameters
 for(let i=0; i<verNumLines; i++){
   line(l1startX+(i*horGapSize),l1startY,l1endX,l1endY);
 }
@@ -81,7 +72,7 @@ for (let i = 0; i < verNumLines; i++) {
 strokeWeight(0);
 fill("black");
 drawTriangle(pos3x,pos3y,size2,degrees);
-drawTriangle(90,97,size3,28)
+drawTriangle(90,pos3y-3,size3,28)
 ellipse(pos2x,pos2y,size1,height1);
 ellipse(pos2x+distanceX,pos2y+distanceY,size1,height2);
 
