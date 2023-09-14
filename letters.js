@@ -979,33 +979,6 @@ const alphabet = {
  "line2endX":50,
  "line2endY":200,
    },
-"!": {
-   //ellipse
-   "size": 50,
-   "offsetx": -40,
-   "offsety": 0,
-   "ellipsedistancehor": 80,
-   "ellipsedistancever":0,
-   "ellipseheight1":230,
-   "ellipseheight2":230,
-   //triangle
-    "triSize":1.5,
-    "triOffsetx":-25,
-    "triOffsety":45,
-    "triRotation":90,
-    "triSize2":1.7,
-   
-   //lines
-   "line1startX":0,
-   "line1startY":0,
-   "line1endX":50,
-   "line1endY":150,
 
-   "line2startX":0,
-   "line2startY":200,
-   "line2endX":50,
-   "line2endY":160,
-   
-}
 
 }
