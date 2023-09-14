@@ -19,7 +19,7 @@ let soloNumAnimationFrames = 30;
 let soloCurAnimationFrame = 0;
 
 // Handy string of all letters available
-const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789?";
+const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!";
 
 let chosenLetters = [];
 let chosenPrevObjs = [null, null, null, null, null, null, null, null];
@@ -36,8 +36,9 @@ let secondsPerWord = 8;
 let curSwapWord = 0;
 
 var defaultSwapWords = [
+  "MESHTOZ",
   "ACTUALLY",
-  "1234567?",
+  "1234567!",
   "EXPECTED",
   "PROPERTY",
   "ADDITION",
