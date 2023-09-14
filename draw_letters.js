@@ -72,7 +72,7 @@ for (let i = 0; i < verNumLines; i++) {
 strokeWeight(0);
 fill("black");
 drawTriangle(pos3x,pos3y,size2,degrees);
-drawTriangle(90,pos3y-3,size3,28)
+drawTriangle(90,pos3y-3,size3,28),
 ellipse(pos2x,pos2y,size1,height1);
 ellipse(pos2x+distanceX,pos2y+distanceY,size1,height2);
 
@@ -122,13 +122,11 @@ function drawTriangle(posx,posy,size,degrees){
 
 
 var swapWords = [
-  "DVERYONE",
-  // "ABCDEFGH",
-  // "IJKLMNOP",
-  "QRSTUVWX",
-  "INDISTRY",
-  "MESHED2Z",
+  "MESHTOZ!",
+  "INDUSTRY",
   "ABBAABBA",
   "CABYCABY",
   "BAAAAAAA"
+  
 ]
+
