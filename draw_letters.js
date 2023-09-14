@@ -107,6 +107,8 @@ function interpolate_letter(percent, oldObj, newObj) {
 
   return new_letter;
 }
+
+//i have drawn the triangle into a functon to lessen the amount of parameters needed
 function drawTriangle(posx,posy,size,degrees){
   angleMode(DEGREES);
   push ();
