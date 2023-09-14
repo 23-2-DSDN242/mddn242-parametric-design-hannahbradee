@@ -35,9 +35,11 @@ below are the parameters used and how they work:
    
    "triSize2" is the only parameter for the second triangle, it controls the size.
    
-   // lines
+   
+   // lines 
    
       // The first set of lines
+      
    "line1startX" controls the start X location.
    
    "line1startY" controls the start Y location
