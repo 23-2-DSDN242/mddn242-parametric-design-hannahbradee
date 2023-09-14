@@ -1,30 +1,30 @@
 const alphabet = {
   "default": {
-   //ellipse
-"size": 50,
-"offsetx": -50,
-"offsety": 30,
-"ellipsedistancehor": 100,
-"ellipsedistancever":0,
-"ellipseheight1":200,
-"ellipseheight2":200,
-//triangle
- "triSize":1.5,
- "triOffsetx":-30,
- "triOffsety":40,
- "triRotation":90,
- "triSize2":1.7,
-
- //lines
- "line1startX":0,
- "line1startY":0,
- "line1endX":0,
- "line1endY":200,
-
- "line2startX":0,
- "line2startY":200,
- "line2endX":100,
- "line2endY":0,
+  //ellipse
+  "size": 50,
+  "offsetx": -40,
+  "offsety": 0,
+  "ellipsedistancehor": 80,
+  "ellipsedistancever":0,
+  "ellipseheight1":230,
+  "ellipseheight2":230,
+  //triangle
+   "triSize":1.5,
+   "triOffsetx":-25,
+   "triOffsety":45,
+   "triRotation":90,
+   "triSize2":1.7,
+  
+   //lines
+   "line1startX":0,
+   "line1startY":0,
+   "line1endX":50,
+   "line1endY":150,
+  
+   "line2startX":0,
+   "line2startY":200,
+   "line2endX":50,
+   "line2endY":160,
 
   },
     "A": {
@@ -740,13 +740,13 @@ const alphabet = {
   },
    "1": {
  //elllipse
- "size": 70,
- "offsetx": -41,
+ "size": 50,
+ "offsetx": -35,
  "offsety": 0,
- "ellipsedistancehor": 85,
+ "ellipsedistancehor": 70,
  "ellipsedistancever": 0,
- "ellipseheight1":210,
- "ellipseheight2":210,
+ "ellipseheight1":280,
+ "ellipseheight2":280,
  //triangle
   "triSize":0,
   "triOffsetx":-20,
@@ -795,15 +795,15 @@ const alphabet = {
    "3": {
  //ellipse
  "size": 100,
- "offsetx": -30,
- "offsety": -40,
+ "offsetx": -10,
+ "offsety": -50,
  "ellipsedistancehor": 0,
- "ellipsedistancever":80,
+ "ellipsedistancever":100,
  "ellipseheight1":70,
  "ellipseheight2":70,
  //triangle
-  "triSize":1.2,
-  "triOffsetx":35,
+  "triSize":1,
+  "triOffsetx":45,
   "triOffsety":-7,
   "triRotation":149,
   "triSize2":0,
@@ -995,16 +995,16 @@ const alphabet = {
     "triRotation":90,
     "triSize2":1.7,
    
-    //lines
-    "line1startX":0,
-    "line1startY":0,
-    "line1endX":0,
-    "line1endY":200,
-   
-    "line2startX":0,
-    "line2startY":200,
-    "line2endX":100,
-    "line2endY":0,
+   //lines
+   "line1startX":0,
+   "line1startY":0,
+   "line1endX":50,
+   "line1endY":150,
+
+   "line2startX":0,
+   "line2startY":200,
+   "line2endX":50,
+   "line2endY":160,
    
 }
 
