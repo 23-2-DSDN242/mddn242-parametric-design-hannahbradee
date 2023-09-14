@@ -217,9 +217,9 @@ const alphabet = {
    "H": {
       //elllipse
   "size": 90,
-  "offsetx": 15,
+  "offsetx": 13,
   "offsety": -70,
-  "ellipsedistancehor": -15,
+  "ellipsedistancehor": -12,
   "ellipsedistancever":140,
   "ellipseheight1":120,
   "ellipseheight2":120,
@@ -767,8 +767,8 @@ const alphabet = {
    },
    "2": {
     //ellipse
-    "size": 100,
-    "offsetx": -30,
+    "size": 90,
+    "offsetx": -15,
     "offsety": -40,
     "ellipsedistancehor": 0,
     "ellipsedistancever":0,
@@ -851,10 +851,10 @@ const alphabet = {
 "size": 80,
 "offsetx": -0,
 "offsety": -40,
-"ellipsedistancehor": -30,
+"ellipsedistancehor": -20,
 "ellipsedistancever":90,
 "ellipseheight1":70,
-"ellipseheight2":60,
+"ellipseheight2":80,
 //triangle
  "triSize":1.8,
  "triOffsetx":35,
