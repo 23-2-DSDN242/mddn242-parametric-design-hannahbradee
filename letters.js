@@ -688,9 +688,9 @@ const alphabet = {
   "Z": {
     //ellipse
 "size": 80,
-"offsetx": -30,
+"offsetx": -20,
 "offsety": -40,
-"ellipsedistancehor": 60,
+"ellipsedistancehor": 40,
 "ellipsedistancever":80,
 "ellipseheight1":60,
 "ellipseheight2":60,
@@ -957,31 +957,32 @@ const alphabet = {
  "line2endY":200,
    },
 "!": {
-//ellipse
-"size": 80,
-"offsetx": -0,
-"offsety": -40,
-"ellipsedistancehor": -30,
-"ellipsedistancever":90,
-"ellipseheight1":70,
-"ellipseheight2":60,
-//triangle
- "triSize":1.5,
- "triOffsetx":35,
- "triOffsety":-20,
- "triRotation":149,
- "triSize2":1.5,
-
- //lines
- "line1startX":0,
- "line1startY":0,
- "line1endX":0,
- "line1endY":200,
-
- "line2startX":0,
- "line2startY":200,
- "line2endX":100,
- "line2endY":0,
+   //ellipse
+   "size": 50,
+   "offsetx": -50,
+   "offsety": 30,
+   "ellipsedistancehor": 100,
+   "ellipsedistancever":0,
+   "ellipseheight1":200,
+   "ellipseheight2":200,
+   //triangle
+    "triSize":1.5,
+    "triOffsetx":-30,
+    "triOffsety":40,
+    "triRotation":90,
+    "triSize2":1.7,
+   
+    //lines
+    "line1startX":0,
+    "line1startY":0,
+    "line1endX":0,
+    "line1endY":200,
+   
+    "line2startX":0,
+    "line2startY":200,
+    "line2endX":100,
+    "line2endY":0,
+   
 }
 
 }
