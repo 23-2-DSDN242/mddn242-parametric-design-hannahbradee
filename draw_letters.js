@@ -123,6 +123,8 @@ function drawTriangle(posx,posy,size,degrees){
 
 var swapWords = [
   "MESHTOZ!",
+  "PICKWORD",
+  "ETC12345",
   "PERSONAL",
   "STANDARD",
   "CONTINUE",
