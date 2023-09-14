@@ -6,7 +6,7 @@ My alphabet is called "Mesh To Z" I was inspired to work with angles and lines w
 The letters consist of 20 parameters. controlling the background lines, two circles, and two triangles.
 below are the parameters used and how they work:
 
-     //ellipses
+     // ellipses
 
   "size" controls the width of both circles.
   
@@ -26,14 +26,18 @@ below are the parameters used and how they work:
   //triangles
   
    "triSize" controls the size of the first triangle
+   
    "triOffsetx" controls the location of the first triangle on the X-axis.
+   
    "triOffsety"  controls the location of the first triangle on the Y axis.
-   "triRotation" controls the rotation of the first triangle
+   
+   "triRotation" controls the rotation of the first triangle.
+   
    "triSize2" is the only parameter for the second triangle, it controls the size.
    
-   //lines
+   // lines
    
-      \\ The first set of lines
+      // The first set of lines
    "line1startX" controls the start X location.
    
    "line1startY" controls the start Y location
@@ -43,7 +47,8 @@ below are the parameters used and how they work:
    "line1endY" controls the end Y location.
    
    
-      \\ The second set of lines
+      // The second set of lines
+      
    "line2startX" controls the start X location.
    
    "line2startY" controls the start Y location.
