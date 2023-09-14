@@ -820,7 +820,30 @@ const alphabet = {
   "line2endY":0,
    },
       "4": {
- 
+    //elllipse
+    "size": 85,
+    "offsetx": 0,
+    "offsety": -70,
+    "ellipsedistancehor": -20,
+    "ellipsedistancever":160,
+    "ellipseheight1":120,
+    "ellipseheight2":120,
+    //triangle
+     "triSize":2.2,
+     "triOffsetx":10,
+     "triOffsety":35,
+     "triRotation":31,
+     "triSize2":0,
+     //lines
+     "line1startX":0,
+     "line1startY":0,
+     "line1endX":0,
+     "line1endY":200,
+    
+     "line2startX":0,
+     "line2startY":200,
+     "line2endX":100,
+     "line2endY":0,
 
    },
       "5": {
