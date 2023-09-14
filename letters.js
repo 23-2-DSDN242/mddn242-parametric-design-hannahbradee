@@ -1,29 +1,30 @@
 const alphabet = {
   "default": {
-    //ellipse
-    "size": 60,
-    "offsetx": 0,
-    "offsety": -40,
-    "ellipsedistancever": 85,
-    "ellipsedistancehor":0,
-    "ellipseheight1":60,
-    "ellipseheight2":60,
+   //ellipse
+"size": 50,
+"offsetx": -50,
+"offsety": 30,
+"ellipsedistancehor": 100,
+"ellipsedistancever":0,
+"ellipseheight1":200,
+"ellipseheight2":200,
 //triangle
-     "triSize":2,
-     "triOffsetx":0,
-     "triOffsety":60,
-     "triRotation":0, 
-     "triSize2":0,
-     //lines
-     "line1startX":0,
-     "line1startY":0,
-     "line1endX":100,
-     "line1endY":0,
+ "triSize":1.5,
+ "triOffsetx":-30,
+ "triOffsety":40,
+ "triRotation":90,
+ "triSize2":1.7,
 
-     "line2startX":0,
-     "line2StartY":0,
-     "line2endX":100,
-     "line2endY":0,
+ //lines
+ "line1startX":0,
+ "line1startY":0,
+ "line1endX":0,
+ "line1endY":200,
+
+ "line2startX":0,
+ "line2startY":200,
+ "line2endX":100,
+ "line2endY":0,
 
   },
     "A": {
@@ -643,7 +644,7 @@ const alphabet = {
  "ellipseheight2":100,
  //triangle
   "triSize":1,
-  "triOffsetx":-40,
+  "triOffsetx":-35,
   "triOffsety":-10,
   "triRotation":90,
   "triSize2":1,
@@ -698,6 +699,7 @@ const alphabet = {
  "triOffsetx":41,
  "triOffsety":2,
  "triRotation":138,
+ "triSize2":0,
  //lines
  "line1startX":0,
  "line1startY":0,
@@ -723,6 +725,8 @@ const alphabet = {
    "triOffsetx":32,
    "triOffsety":-45,
    "triRotation":37,
+   "triSize2":0,
+
    //lines
    "line1startX":0,
    "line1startY":100,
@@ -748,6 +752,8 @@ const alphabet = {
   "triOffsetx":-20,
   "triOffsety":-45,
   "triRotation":46,
+  "triSize2":0,
+
   //lines
   "line1startX":0,
   "line1startY":0,
@@ -773,6 +779,8 @@ const alphabet = {
      "triOffsetx":35,
      "triOffsety":25,
      "triRotation":140,
+     "triSize2":0,
+
      //lines
      "line1startX":0,
      "line1startY":0,
@@ -798,6 +806,8 @@ const alphabet = {
   "triOffsetx":35,
   "triOffsety":-7,
   "triRotation":149,
+  "triSize2":0,
+
   //lines
   "line1startX":0,
   "line1startY":0,
@@ -809,21 +819,64 @@ const alphabet = {
   "line2endX":100,
   "line2endY":0,
    },
-//   "4": {
-//     "size": 40,
-//     "offsetx": 0,
-//     "offsety": 17
-//   },
-//   "5": {
-//     "size": 40,
-//     "offsetx": 0,
-//     "offsety": 17
-//   },
-//   "6": {
-//     "size": 40,
-//     "offsetx": 0,
-//     "offsety": 17
-//   },
+      "4": {
+ 
+
+   },
+      "5": {
+//ellipse
+"size": 80,
+"offsetx": -0,
+"offsety": -40,
+"ellipsedistancehor": -30,
+"ellipsedistancever":90,
+"ellipseheight1":70,
+"ellipseheight2":60,
+//triangle
+ "triSize":1.8,
+ "triOffsetx":35,
+ "triOffsety":-20,
+ "triRotation":149,
+ "triSize2":0,
+
+ //lines
+ "line1startX":0,
+ "line1startY":0,
+ "line1endX":0,
+ "line1endY":200,
+
+ "line2startX":0,
+ "line2startY":200,
+ "line2endX":100,
+ "line2endY":0,
+   },
+
+   "6": {
+    "size": 70,
+    "offsetx": -3,
+    "offsety": -50,
+    "ellipsedistancehor": 3,
+    "ellipsedistancever":100,
+    "ellipseheight1":80,
+    "ellipseheight2":50,
+    //triangle
+     "triSize":2,
+     "triOffsetx":30,
+     "triOffsety":-44,
+     "triRotation":30,
+     "triSize2":0,
+     //lines
+     "line1startX":0,
+     "line1startY":200,
+     "line1endX":50,
+     "line1endY":0,
+    
+     "line2startX":0,
+     "line2startY":0,
+     "line2endX":50,
+     "line2endY":200,
+       },
+
    "7": {
  //elllipse
  "size": 60,
@@ -838,6 +891,8 @@ const alphabet = {
   "triOffsetx":-20,
   "triOffsety":-45,
   "triRotation":46,
+  "triSize2":0,
+
   //lines
   "line1startX":0,
   "line1startY":0,
@@ -849,15 +904,84 @@ const alphabet = {
   "line2endX":50,
   "line2endY":0,
    },
-//   "8": {
-//     "size": 40,
-//     "offsetx": 0,
-//     "offsety": 17
-//   },
-//   "9": {
-//     "size": 40,
-//     "offsetx": 0,
-//     "offsety": 17
-//   }
+   "8": {
+//elllipse
+"size": 50,
+"offsetx": 0,
+"offsety": -50,
+"ellipsedistancehor": 0,
+"ellipsedistancever":100,
+"ellipseheight1":50,
+"ellipseheight2":50,
+//triangle
+ "triSize":1,
+ "triOffsetx":-35,
+ "triOffsety":-10,
+ "triRotation":90,
+ "triSize2":1,
+ //lines
+ "line1startX":0,
+ "line1startY":200,
+ "line1endX":50,
+ "line1endY":0,
+
+ "line2startX":0,
+ "line2startY":0,
+ "line2endX":50,
+ "line2endY":200,
+   },
+   "9": {
+//elllipse
+"size": 70,
+"offsetx": -0,
+"offsety": -46,
+"ellipsedistancehor": 5,
+"ellipsedistancever":100,
+"ellipseheight1":50,
+"ellipseheight2":80,
+//triangle
+ "triSize":2,
+ "triOffsetx":-20,
+ "triOffsety":20,
+ "triRotation":90,
+ "triSize2":0,
+ //lines
+ "line1startX":0,
+ "line1startY":200,
+ "line1endX":50,
+ "line1endY":0,
+
+ "line2startX":0,
+ "line2startY":0,
+ "line2endX":50,
+ "line2endY":200,
+   },
+"!": {
+//ellipse
+"size": 80,
+"offsetx": -0,
+"offsety": -40,
+"ellipsedistancehor": -30,
+"ellipsedistancever":90,
+"ellipseheight1":70,
+"ellipseheight2":60,
+//triangle
+ "triSize":1.5,
+ "triOffsetx":35,
+ "triOffsety":-20,
+ "triRotation":149,
+ "triSize2":1.5,
+
+ //lines
+ "line1startX":0,
+ "line1startY":0,
+ "line1endX":0,
+ "line1endY":200,
+
+ "line2startX":0,
+ "line2startY":200,
+ "line2endX":100,
+ "line2endY":0,
+}
 
 }
