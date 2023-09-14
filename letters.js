@@ -825,13 +825,13 @@ const alphabet = {
     "offsetx": 0,
     "offsety": -70,
     "ellipsedistancehor": -20,
-    "ellipsedistancever":160,
+    "ellipsedistancever":170,
     "ellipseheight1":120,
     "ellipseheight2":120,
     //triangle
-     "triSize":2.2,
+     "triSize":2.15,
      "triOffsetx":10,
-     "triOffsety":35,
+     "triOffsety":39,
      "triRotation":31,
      "triSize2":0,
      //lines
@@ -982,16 +982,16 @@ const alphabet = {
 "!": {
    //ellipse
    "size": 50,
-   "offsetx": -50,
-   "offsety": 30,
-   "ellipsedistancehor": 100,
+   "offsetx": -40,
+   "offsety": 0,
+   "ellipsedistancehor": 80,
    "ellipsedistancever":0,
-   "ellipseheight1":200,
-   "ellipseheight2":200,
+   "ellipseheight1":230,
+   "ellipseheight2":230,
    //triangle
     "triSize":1.5,
-    "triOffsetx":-30,
-    "triOffsety":40,
+    "triOffsetx":-25,
+    "triOffsety":45,
     "triRotation":90,
     "triSize2":1.7,
    
